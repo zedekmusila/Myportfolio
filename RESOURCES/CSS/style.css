@@ -5,8 +5,8 @@
     font-family: 'poppins',sans-serif;
 }
 #home {
-   background-color: #4b2b31 ; 
-   color: #ededed;
+   background-color: #072D44 ; 
+   color: #D0D7E1;
 
 }
 /* Navbar */
@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #CE8054;
+    background: #9CCDDB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,13 +25,13 @@
 }
 .logo {
     font-size: 25px;
-    color: #ededed;
+    color: #D0D7E1;
     text-decoration: none;
     font-weight: 600;
 }
 .navbar a {
 font-size: 18px;
-color: #ededed;
+color: #D0D7E1;
 text-decoration: none;
 font-weight: 500;
 margin-left: 35px;
@@ -39,7 +39,7 @@ transition: 3s;
 }
 .navbar a:hover,
 .navbar a.active {
-    color: #6F3637;
+    color: #5790AB;
 }
 
 /* Home */
@@ -51,7 +51,7 @@ transition: 3s;
     padding: 0 10%;
 }
 .home-content {
-    background:#4B2B31 ;
+    background:#072D44 ;
     max-width: 600px;
 
 }
@@ -64,7 +64,7 @@ transition: 3s;
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #6F3637;
+    color: #5790AB;
 }
 .home-content p {
     font-size: 16px;
@@ -87,11 +87,11 @@ transition: 3s;
    align-items: center;
    width: 150px;
    height: 100%; 
-   background: #6F3637;
-   border: 2px solid #6F3637 ;
+   background: #064469;
+   border: 2px solid #5790AB;
    border-radius: 8px;
    font-size: 19px;
-   color: #233342;
+   color: #072D44;
    text-decoration: none;
    font-weight: 600;
    letter-spacing: 1px; 
@@ -100,17 +100,17 @@ transition: 3s;
    transition: .5s;
 }
 .btn-box a:hover {
-    color: #6F3637;
+    color: #064469;
 }
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #6F3637;
+    color: #5790AB;
 }
 .btn-box a:nth-child(2):hover {
-    color: #233342;
+    color: #072D44;
 }
 .btn-box a:nth-child(2)::before {
-    background: #6F3637;
+    background: #5790AB;
 }
 
 .btn-box a::before {
@@ -120,7 +120,7 @@ transition: 3s;
     left: 0;
     width: 0;
     height: 100%;
-    background: #233342;
+    background: #5790AB;
     z-index: -1;
     transition: .5s;
 
@@ -133,7 +133,7 @@ transition: 3s;
 .bg h1 {
     display: flex;
     justify-content: space-between;
-    color: #ededed;
+    color: #D0D7E1;
     font-weight: 600;
     background-size: cover;
     background-position: right;
@@ -163,10 +163,10 @@ transition: 3s;
     width: 40px;
     height: 40px; 
     background:transparent;
-    border: 2px solid #6F3637;
+    border: 2px solid #064469;
     border-radius: 50%;
     font-size: 20px;
-    color: #6F3637;
+    color: #9CCDDB;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px; 
@@ -176,8 +176,8 @@ transition: 3s;
 }
 
 .footer-sci a:hover {
-    color: #6F3637;
-    background: #6F3637;
+    color: #064469;
+    background: #064469;
 }
 
 .footer-sci a::before {
@@ -187,8 +187,8 @@ transition: 3s;
     left: 0;
     width: 0;
     height: 100%;
-    background: #233342 ;
-    color: #6F3637;
+    background: #5790AB ;
+    color: #064469;
     z-index: -1;
     transition: .5s;
 }
@@ -200,8 +200,8 @@ transition: 3s;
 
 /* About */
 #about {
-    background: #233342;
-    color: #ededed;
+    background: #072D44;
+    color: #D0D7E1;
 }
 
 .about {
@@ -214,7 +214,7 @@ transition: 3s;
 }
 
 .about-content {
-    background:#233342 ;
+    background:#072D44 ;
     max-width: 1000px;
 }
 
@@ -226,7 +226,7 @@ transition: 3s;
 .sub-title {
    font-size: 56px; 
    font-weight: 700;
-   color: #ededed;
+   color: #D0D7E1;
 }
 
 .tab-titles{
@@ -248,7 +248,7 @@ justify-content: space-around;
     content: '';
     width: 0;
     height: 3px;
-    background: #CE8054;
+    background: #5790AB;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -266,7 +266,7 @@ width: 50%;
 }
 
 .tab-contents ul li span {
-    color: #6F3637;
+    color: #064469;
     font-size: 12px;
 }
 
@@ -281,7 +281,7 @@ width: 50%;
 .about-content h3 {
         font-size: 32px;
         font-weight: 700;
-        color: #6F3637;
+        color: #064469;
 }
 
 .about-content p {
@@ -303,11 +303,11 @@ width: 50%;
     align-items: center;
     width: 150px;
     height: 100%; 
-    background: #6F3637;
-    border: 2px solid #6F3637;
+    background: #064469;
+    border: 2px solid #5790AB;
     border-radius: 8px;
     font-size: 19px;
-    color: #222;
+    color: #072D44;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px; 
@@ -317,17 +317,18 @@ width: 50%;
  }
 
  .btn-box-about a:hover {
-    color: #6F3637;
+    color: #064469;
 }
 .btn-box-about a:nth-child(2) {
     background: transparent;
-    color: #6F3637;
+    color: #5790AB;
+    
 }
 .btn-box-about a:nth-child(2):hover {
-    color: #233342;
+    color: #072D44;
 }
 .btn-box-about a:nth-child(2)::before {
-    background: #6F3637;
+    background: #5790AB;
 }
 
 .btn-box-about a::before {
@@ -337,7 +338,7 @@ width: 50%;
     left: 0;
     width: 0;
     height: 100%;
-    background: #233342;
+    background: #5790AB;
     z-index: -1;
     transition: .5s;
 
@@ -349,8 +350,8 @@ width: 50%;
 
 /* Project */
 #Projects {
-    background: #233342;
-    color: #ededed;
+    background: #072D44;
+    color: #D0D7E1;
 }
 .projects {
     height: 100vh;
@@ -362,7 +363,7 @@ width: 50%;
 }
 
 .projects-content {
-    background: #232323; ;
+    background: #072D44; ;
     max-width: 1000px;
 }
 
@@ -376,7 +377,7 @@ width: 50%;
     display: flex; 
     justify-content: center;
     align-items: center;
-    background: #232323;
+    background: #072D44;
     font-size: 32px;
     color:#ededed;
     text-decoration: none;
@@ -388,7 +389,7 @@ width: 50%;
 
  .btn-box-projects a {
     text-decoration: none;
-    color: #6F3637;
+    color: #5790AB;
     font-weight: 600;
     font-size: 32px;
 
@@ -402,8 +403,8 @@ width: 50%;
 
 /* Reach */
 #reach {
-    background: #042B44;
-    color: #ededed;
+    background: #072D44;
+    color: #D0D7E1;
 }
 
 .reach {
@@ -413,7 +414,7 @@ width: 50%;
     padding: 0 10%;
 }
 .reach-content {
-    background:#042B44 ;
+    background:#072D44 ;
      max-width: 900px; 
 
 }
@@ -426,13 +427,13 @@ width: 50%;
 .reach-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #00abf0;
+    color: #5790AB;
 }
 
 .reach-content h5 {
     font-size: 16px;
     font-weight: 700;
-    color: #71B7D5;
+    color: #9CCDDB;
     line-height: 1.2;
 }
 
@@ -446,7 +447,7 @@ width: 50%;
     line-height: 1.3;
     font-size: 32px;
     font-weight: 700;
-    color: #00abf0;
+    color: #5790AB;
 }
 
 .reach-content p {
